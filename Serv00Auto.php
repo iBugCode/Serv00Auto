@@ -1,8 +1,8 @@
 <?php
 /**
  * Serv00 自动化脚本
- * Author: iBigCode
- * Github: https://github.com/ibigcode/Serv00Auto.git
+ * Author: iBugCode
+ * Github: https://github.com/iBugCode/Serv00Auto.git
  */
 
 header('Content-Type: text/html; charset=utf-8');
@@ -25,7 +25,7 @@ define('SMTP_PASSWORD', 'you-password');
 define('SMTP_FROM', 'SERV00自动');
 define('SMTP_TO', 'you-name@outlook.com');
 
-class ser00{
+class serv00{
 
     protected $httpCode = 0;
     protected $body = '';
@@ -281,6 +281,6 @@ class ser00{
     }
 }
 
-$s0 = new ser00();
+$s0 = new serv00();
 
 $s0->run();
